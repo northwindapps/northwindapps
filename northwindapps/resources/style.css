@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.burger {
+    background-image: url(/resources/img/mobile.png);
+    /* background-size: 300px; */
+    background-size: cover;
+    margin: 2rem;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    /* border: solid; */
+
+}
+
+p.first{
+    background-color: white;
+    position: relative;
+    top: 70%;
+    left: 80%;
+    padding:0.5rem;
+    width: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.cheese{
+    background-image: url(/resources/img/sky.png);
+    /* background-size: contain; cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 2rem;
+    border-radius: 50px;
+    height: 50vh;
+}
+
+.fries {
+    background-image: url(/resources/img/laptop.jpg);
+    /* background-size: contain; cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 2rem;
+    border-radius: 50px;
+    height: 50vh;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+    padding: 0;
+    background-color: #4D4843;
+    margin: 0;
+    box-shadow: 0 0 2px black;
+    z-index: 9999;
+}
+
+.nav li {
+    margin: 1rem;
+    list-style: none;
+    color: white;
+}
+
+li.title{
+    color: cornflowerblue;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+h1.first, .third{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    color: white;
+    background-color: red;
+    background: linear-gradient(45deg, transparent 20px, red 20px);
+}
+
+h1.second{
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    color: white;
+    background-color: red;
+    background: linear-gradient(315deg, transparent 20px, red 20px);
+}
+
+.mobiles {
+    background-color: white;
+    opacity: 0.8;
+    list-style: none;
+    position: relative;
+    top: 70%;
+    left: 80%;
+    padding:1.5rem;
+    width: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.mobiles li{
+    color: black;
+}
+
+.webapps {
+    background-color: white;
+    opacity: 0.8;
+    list-style: none;
+    position: relative;
+    top: 70%;
+    left: 20%;
+    padding:1.5rem;
+    width: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.about{
+    background-color: white;
+    opacity: 0.8;
+    list-style: none;
+    position: relative;
+    top: 70%;
+    left: 70%;
+    padding:1.5rem;
+    width: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4D4843;
+    box-shadow: 0 0 2px black;
+    z-index: 9999;
+}
+
+.sticky li{
+    margin: 1rem;
+    list-style: none;
+    color: white;
+}
+
+.sticky li.title{
+    color: cornflowerblue;
+}
+
+footer{
+    margin: 0;
+    padding-top: 8px;
+    background-color: #4D4843;
+    height: 5vh;
+}
+
+.credit{
+    margin: 0;
+}
+.credit p{
+    margin: 0;
+    text-align: center;
+    color:white;
+}
+
+/* 
+.footer-nav {
+    float: left;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+} */
